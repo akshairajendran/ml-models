@@ -1,3 +1,7 @@
+import pandas as pd
+import numpy as np
+from typing import Union, Optional
+
 class TreeEnsemble():
     def __init__(self, x: pd.DataFrame, y: np.array, 
                        x_valid: pd.DataFrame=pd.DataFrame(), y_valid: pd.DataFrame=pd.DataFrame(),
